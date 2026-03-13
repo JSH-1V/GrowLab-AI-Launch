@@ -136,14 +136,12 @@ export const Hero = () => {
           Porque una cosa es llenar una lista. Y otra muy distinta es mover esa lista de verdad.
         </motion.p>
 
-        {/* Video Player */}
+        {/* Video Player - Temporarily Removed
         <motion.div variants={itemVariants} className="relative mx-auto max-w-4xl mb-12">
           <div className="absolute -inset-1 rounded-[2.5rem] bg-gradient-to-r from-accent via-blue-500 to-accent opacity-30 blur-xl" />
           <div className="relative aspect-video overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 backdrop-blur-3xl shadow-2xl">
             {!isVideoPlaying ? (
-              /* Video Cover / Placeholder */
               <div className="group/video relative flex h-full w-full items-center justify-center bg-gradient-to-b from-transparent to-black/60 cursor-pointer overflow-hidden">
-                {/* Video Thumbnail */}
                 <img
                   src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
                   alt="Video Thumbnail"
@@ -163,12 +161,7 @@ export const Hero = () => {
                 </motion.button>
               </div>
             ) : (
-              /* Actual Video Embed */
               <div className="h-full w-full">
-                {/*
-                  REPLACE THE ID BELOW WITH YOUR YOUTUBE VIDEO ID
-                  Example: https://www.youtube.com/watch?v=dQw4w9WgXcQ -> ID is "dQw4w9WgXcQ"
-                */}
                 <iframe
                   src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
                   className="h-full w-full border-0"
@@ -179,6 +172,7 @@ export const Hero = () => {
             )}
           </div>
         </motion.div>
+        */}
 
         <motion.div variants={itemVariants} className="mb-6 flex flex-wrap justify-center gap-4">
           <MagneticButton
