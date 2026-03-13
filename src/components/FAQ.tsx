@@ -41,12 +41,12 @@ export const FAQ = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16"
         >
-          <div className="mb-4 flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+          <div className="mb-4 flex items-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase">
             <div className="h-[1px] w-8 bg-accent" />
             Preguntas frecuentes
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
-            Si estás pensando esto, <span className="font-serif italic font-medium text-accent-light">te entiendo</span>
+            Si estás pensando esto, <span className="font-accent text-[0.8em] tracking-normal text-accent-light">te entiendo</span>
           </h2>
           <p className="max-w-2xl text-lg text-white/50 font-light leading-relaxed">
             Resolvemos las dudas más comunes para que solo te preocupes por lo que realmente importa: tu lanzamiento.
@@ -60,7 +60,7 @@ export const FAQ = () => {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="group flex w-full items-center justify-between py-8 text-left transition-all hover:px-2"
               >
-                <span className={`text-xl font-medium transition-colors ${openIndex === i ? "text-accent-light" : "text-white/80 group-hover:text-white"}`}>
+                <span className={`text-xl font-display font-medium transition-colors ${openIndex === i ? "text-accent-light" : "text-white/80 group-hover:text-white"}`}>
                   {faq.q}
                 </span>
                 <motion.div

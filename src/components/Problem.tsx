@@ -32,7 +32,7 @@ const ProblemCard: FC<ProblemCardProps> = ({ title, description, icon }) => {
               </div>
             </div>
           </div>
-          <h3 className="mb-4 text-xl font-bold bg-gradient-to-r from-white via-accent-light to-white bg-clip-text text-transparent animate-[pulse_5s_infinite] transform group-hover:scale-105 transition-transform duration-300">
+          <h3 className="mb-4 text-xl font-display font-bold bg-gradient-to-r from-white via-accent-light to-white bg-clip-text text-transparent animate-[pulse_5s_infinite] transform group-hover:scale-105 transition-transform duration-300">
             {title}
           </h3>
           <div className="space-y-1 max-w-sm flex-grow">
@@ -96,13 +96,13 @@ export const Problem = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16 text-center md:text-left"
         >
-          <div className="mb-4 flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase md:justify-start justify-center">
+          <div className="mb-4 flex items-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase md:justify-start justify-center">
             <div className="h-[1px] w-8 bg-accent" />
             El problema real
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
             El problema no es que te falten leads.<br />
-            El problema es todo lo que se te está <span className="font-serif italic font-medium text-accent-light">escapando después.</span>
+            El problema es todo lo que se te está <span className="font-accent text-[0.8em] tracking-normal text-accent-light">escapando después.</span>
           </h2>
           <p className="max-w-2xl text-lg text-white/60">
             Muchos expertos creen que su problema está en captar más. Pero cuando revisan el lanzamiento por dentro, se encuentran con que el dinero se queda sobre la mesa por falta de estructura.
@@ -132,8 +132,8 @@ export const Problem = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mt-16 rounded-3xl border-l-4 border-accent bg-gradient-to-r from-accent/10 to-transparent p-8 md:p-12"
         >
-          <p className="font-serif text-2xl italic font-medium leading-relaxed text-white/90 md:text-3xl">
-            "Cuando un lead no llega, no responde o se enfría, no solo pierdes una conversación. <span className="text-accent-light not-italic font-display font-bold">Pierdes una oportunidad que ya habías pagado."</span>
+          <p className="font-display text-2xl italic font-light leading-relaxed text-white/90 md:text-3xl">
+            "Cuando un lead no llega, no responde o se enfría, no solo pierdes una conversación. <span className="text-accent-light not-italic font-bold">Pierdes una oportunidad que ya habías pagado."</span>
           </p>
         </motion.div>
       </div>

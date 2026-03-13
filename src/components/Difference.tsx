@@ -14,13 +14,13 @@ export const Difference = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16"
         >
-          <div className="mb-4 flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+          <div className="mb-4 flex items-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase">
             <div className="h-[1px] w-8 bg-accent" />
             Nuestra diferencia
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
             Nuestra diferencia no es solo que sabemos de IA.<br />
-            Nuestra diferencia es que sabemos de <span className="font-serif italic font-medium text-accent-light">lanzamientos.</span>
+            Nuestra diferencia es que sabemos de <span className="font-accent text-[0.8em] tracking-normal text-accent-light">lanzamientos.</span>
           </h2>
           <p className="max-w-2xl text-lg text-white/50 font-light leading-relaxed">
             Hay muchas personas que saben de herramientas. Y también hay muchas que saben producir lanzamientos. Pero casi nadie domina las dos cosas al mismo tiempo con la precisión que el mercado exige hoy.
@@ -38,7 +38,7 @@ export const Difference = () => {
               <div className="p-2 rounded-lg bg-accent/10">
                 <BookOpen className="h-6 w-6" />
               </div>
-              <h4 className="text-sm font-bold uppercase tracking-[0.15em]">Sabemos de lanzamientos</h4>
+              <h4 className="text-[11px] font-accent uppercase tracking-[0.1em]">Sabemos de lanzamientos</h4>
             </div>
             <ul className="space-y-4 text-white/60">
               {[
@@ -66,7 +66,7 @@ export const Difference = () => {
               <div className="p-2 rounded-lg bg-accent/10">
                 <Code className="h-6 w-6" />
               </div>
-              <h4 className="text-sm font-bold uppercase tracking-[0.15em]">Y sabemos implementar IA</h4>
+              <h4 className="text-[11px] font-accent uppercase tracking-[0.1em]">Y sabemos implementar IA</h4>
             </div>
             <ul className="space-y-4 text-white/60">
               {[
@@ -93,8 +93,8 @@ export const Difference = () => {
         >
           <div className="absolute inset-0 bg-accent/5 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="relative border-l-4 border-accent bg-white/[0.03] p-10 backdrop-blur-sm rounded-r-2xl border-y border-r border-white/5">
-            <p className="font-serif text-2xl italic font-medium leading-relaxed text-white/90 md:text-3xl">
-              "No somos una empresa que aprendió IA y quiere probar suerte en lanzamientos. <span className="text-accent-light not-italic font-display font-bold">Somos gente que ya vive los lanzamientos y entendió cómo usar la IA para hacerlos rendir mejor."</span>
+            <p className="font-display text-2xl italic font-light leading-relaxed text-white/90 md:text-3xl">
+              "No somos una empresa que aprendió IA y quiere probar suerte en lanzamientos. <span className="text-accent-light not-italic font-bold">Somos gente que ya vive los lanzamientos y entendió cómo usar la IA para hacerlos rendir mejor."</span>
             </p>
           </div>
         </motion.div>

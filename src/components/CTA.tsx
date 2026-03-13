@@ -16,13 +16,13 @@ export const CTA = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mx-auto max-w-4xl rounded-[3rem] border border-white/10 bg-black/40 p-12 backdrop-blur-3xl md:p-20 shadow-[0_30px_100px_rgba(0,0,0,0.5)] ring-1 ring-inset ring-white/10"
         >
-          <div className="mb-8 flex items-center justify-center gap-3 text-xs font-bold tracking-[0.25em] text-accent uppercase">
+          <div className="mb-8 flex items-center justify-center gap-3 text-[10px] font-accent tracking-[0.25em] text-accent uppercase">
             <div className="h-[1px] w-12 bg-accent" />
             Da el siguiente paso
             <div className="h-[1px] w-12 bg-accent" />
           </div>
           <h2 className="mb-8 font-display text-4xl font-bold leading-[1.1] md:text-6xl tracking-tight text-white transition-all">
-            Mira cómo se vería este ecosistema dentro de tu <span className="font-serif italic font-medium text-accent-light">próximo lanzamiento</span>
+            Mira cómo se vería este ecosistema dentro de tu <span className="font-accent text-[0.8em] tracking-normal text-accent-light">próximo lanzamiento</span>
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-lg text-white/50 font-light leading-relaxed">
             Esto no es una llamada vacía. Es una sesión estratégica para aterrizar cómo funcionaría este sistema en un lanzamiento como el tuyo, recuperando ventas que hoy estás perdiendo.
@@ -36,7 +36,7 @@ export const CTA = () => {
               Quiero simular mi ecosistema
               <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-2" />
             </MagneticButton>
-            <p className="max-w-md text-xs leading-relaxed text-white/30 font-medium uppercase tracking-widest">
+            <p className="max-w-md text-[10px] leading-relaxed text-white/30 font-accent uppercase tracking-widest">
               exclusivo para expertos e infoproductores escalando
             </p>
           </div>

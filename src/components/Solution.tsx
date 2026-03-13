@@ -31,12 +31,12 @@ export const Solution = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16 text-center"
         >
-          <div className="mb-4 flex items-center justify-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+          <div className="mb-4 flex items-center justify-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase">
             <div className="h-[1px] w-8 bg-accent" />
             La solución
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
-            Implementamos ecosistemas de IA para <span className="font-serif italic font-medium text-accent-light">lanzamientos digitales</span>
+            Implementamos ecosistemas de IA para <span className="font-accent text-[0.8em] tracking-normal text-accent-light">lanzamientos digitales</span>
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-white/60">
             No para meter tecnología por meter. Sino para ayudarte a recuperar una parte de las ventas que hoy se te están escapando.

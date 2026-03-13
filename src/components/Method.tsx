@@ -36,12 +36,12 @@ export const Method = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16"
         >
-          <div className="mb-4 flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+          <div className="mb-4 flex items-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase">
             <div className="h-[1px] w-8 bg-accent" />
             Nuestro método
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
-            Así lo trabajamos <span className="font-serif italic font-medium text-accent-light">contigo</span>
+            Así lo trabajamos <span className="font-accent text-[0.8em] tracking-normal text-accent-light">contigo</span>
           </h2>
           <p className="max-w-2xl text-lg text-white/50 font-light leading-relaxed">
             Primero entendemos tu lanzamiento. Después construimos lo que realmente necesitas para escalar tu facturación de forma previsible.
@@ -58,7 +58,7 @@ export const Method = () => {
               transition={{ delay: index * 0.1 }}
               className="group relative flex gap-6 rounded-3xl border border-white/5 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.05] hover:border-white/10 hover:-translate-y-1"
             >
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent text-2xl font-display font-bold text-white shadow-[0_0_20px_rgba(124,92,252,0.3)] group-hover:shadow-[0_0_30px_rgba(124,92,252,0.5)] transition-all">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent text-[20px] font-accent text-white shadow-[0_0_20px_rgba(124,92,252,0.3)] group-hover:shadow-[0_0_30px_rgba(124,92,252,0.5)] transition-all">
                 {step.num}
               </div>
               <div>

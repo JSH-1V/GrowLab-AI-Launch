@@ -110,7 +110,7 @@ export const Hero = () => {
       >
         <motion.div
           variants={itemVariants}
-          className="mb-8 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-bold tracking-widest text-accent-light uppercase backdrop-blur-sm"
+          className="mb-8 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-[10px] font-accent tracking-[0.2em] text-accent-light uppercase backdrop-blur-sm"
         >
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75"></span>
@@ -121,7 +121,7 @@ export const Hero = () => {
 
         <motion.h1
           variants={itemVariants}
-          className="mx-auto mb-6 max-w-4xl font-display text-4xl font-extrabold leading-[1.15] tracking-tight md:text-6xl text-white"
+          className="mx-auto mb-6 max-w-4xl font-display text-4xl font-bold leading-[1.1] tracking-tight md:text-7xl text-white"
           style={{
             filter: (tier === "high" && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)))
               ? "url(#text-glow)"
@@ -129,7 +129,7 @@ export const Hero = () => {
           }}
         >
           No necesitas solo más leads.<br />
-          Necesitas que más de esos leads <span className="font-serif italic font-medium text-accent-light">lleguen, respondan y compren.</span>
+          Necesitas que más de esos leads <span className="text-accent-light font-accent text-[0.85em] tracking-normal">lleguen, respondan y compren.</span>
         </motion.h1>
 
         <motion.p variants={itemVariants} className="mx-auto mb-10 max-w-xl text-sm italic text-white/40">
@@ -183,7 +183,7 @@ export const Hero = () => {
         <motion.div variants={itemVariants} className="mb-6 flex flex-wrap justify-center gap-4">
           <MagneticButton
             onClick={() => window.open("https://growlab.us/form-page", "_blank")}
-            className="group flex items-center gap-2 rounded-full bg-accent px-10 py-5 text-xl font-bold text-white shadow-[0_0_30px_rgba(124,92,252,0.4)] transition-all hover:shadow-[0_0_50px_rgba(124,92,252,0.6)]"
+            className="group flex items-center gap-2 rounded-full bg-accent px-10 py-5 text-xl font-display font-bold text-white shadow-[0_0_30px_rgba(124,92,252,0.4)] transition-all hover:shadow-[0_0_50px_rgba(124,92,252,0.6)]"
           >
             Quiero ver cómo funcionaría en mi lanzamiento
             <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />

@@ -23,14 +23,14 @@ export const Results = () => {
           viewport={{ once: true, margin: "-10%" }}
           className="mb-16 text-center"
         >
-          <div className="mb-4 flex items-center justify-center gap-3 text-xs font-bold tracking-[0.2em] text-accent uppercase">
+          <div className="mb-4 flex items-center justify-center gap-3 text-[10px] font-accent tracking-[0.2em] text-accent uppercase">
             <div className="h-[1px] w-8 bg-accent" />
             Resultados reales
             <div className="h-[1px] w-8 bg-accent" />
           </div>
           <h2 className="mb-6 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white">
             Esto no nace de una idea bonita.<br />
-            Nace de lo que ya hemos visto <span className="font-serif italic font-medium text-accent-light">funcionar.</span>
+            Nace de lo que ya hemos visto <span className="font-accent text-[0.8em] tracking-normal text-accent-light">funcionar.</span>
           </h2>
           <p className="max-w-2xl mx-auto text-white/50 text-sm md:text-base">
             Nuestros procesos están validados por datos y experiencia real en el mercado, garantizando escalabilidad y previsibilidad.
@@ -53,7 +53,7 @@ export const Results = () => {
               <div className="relative mb-3 font-display text-4xl font-bold tracking-tight text-white md:text-5xl group-hover:text-accent-light transition-colors">
                 <Counter value={m.val} />
               </div>
-              <div className="relative text-[10px] font-bold tracking-[0.15em] text-white/40 uppercase leading-relaxed max-w-[120px]">
+              <div className="relative text-[9px] font-accent tracking-[0.1em] text-white/40 uppercase leading-relaxed max-w-[120px]">
                 {m.lbl}
               </div>
 

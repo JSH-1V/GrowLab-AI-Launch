@@ -13,7 +13,7 @@ export const Closing = () => {
             viewport={{ once: true, margin: "-10%" }}
             className="mb-12 font-display text-3xl font-bold leading-tight md:text-5xl tracking-tight text-white"
           >
-            Tu próximo lanzamiento puede seguir igual… o puede empezar a recuperar parte de lo que hoy se está <span className="font-serif italic font-medium text-accent-light">perdiendo.</span>
+            Tu próximo lanzamiento puede seguir igual… o puede empezar a recuperar parte de lo que hoy se está <span className="font-accent text-[0.8em] tracking-normal text-accent-light">perdiendo.</span>
           </motion.h2>
 
           <motion.div
@@ -36,7 +36,7 @@ export const Closing = () => {
               No por suerte. No por una promesa bonita. <strong className="text-white font-medium">Sino porque ahora tienes una estructura que acompaña mejor lo que antes se te estaba yendo de las manos.</strong>
             </p>
 
-            <p className="font-serif text-2xl italic text-accent-light">
+            <p className="font-display text-2xl italic font-light text-accent-light">
               Y eso, cuando lanzas en serio, se siente.
             </p>
 
